@@ -1,0 +1,21 @@
+{
+  "name": "js-helloworld",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d public",
+    "build": "echo '静的ファイルを public ディレクトリに配置してください'"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
+  },
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
